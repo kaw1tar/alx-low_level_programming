@@ -7,3 +7,4 @@ int _sqrt_recursion(int n);
 int is_prime_number(int n);
 int _putchar(char c);
 int _sqrt_recursion_helper(int n, int x);
+int itis_prime(int n, int x);
