@@ -5,7 +5,7 @@
  * main - entry point
  * @argc: integer
  * @argv: the pointer
- * Return: 1 if the program does receive two arguments
+ * Return: 0 for two arg, 1 if the program does receive two arguments
  */
 
 int main(int argc, char *argv[])
