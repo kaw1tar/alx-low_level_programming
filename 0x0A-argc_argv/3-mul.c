@@ -2,17 +2,15 @@
 #include <stdlib.h>
 
 /**
- * main - entry point
- * @argc: integer
+ * main - Entry point
+ * @argc: the number of arguments
  * @argv: the pointer
- * Return: 0 for two arg, 1 if the program does receive two arguments
+ * Return: 0.
  */
 
 int main(int argc, char *argv[])
 {
 	int result;
-
-	result = atoi(argv[1]) * atoi(argv[2]);
 
 	if (argc != 3)
 	{
@@ -21,6 +19,7 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
+		result = atoi(argv[1]) * atoi(argv[2]);
 		printf("%d\n", result);
 	}
 	return (0);
